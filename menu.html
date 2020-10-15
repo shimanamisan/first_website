@@ -49,43 +49,59 @@
     </div><!-- /#menu -->
 
     <div class="wrapper grid">
-        <div class="item big-box">
-            <img src="images/menuList/menu1.jpg" alt="コーヒーセット">
+        <div class="item js-modal-open">
+            <img src="images/menuList/menu1.jpg" alt="コーヒーセット" data-id="1">
             <p>コーヒーセット</p>
         </div>
-        <div class="item">
-            <img src="images/menuList/menu2.jpg" alt="カルボラーナ">
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu2.jpg" alt="カルボラーナ" data-id="2">
             <p>カルボラーナ</p>
         </div>
-        <div class="item">
-            <img src="images/menuList/menu3.jpg" alt="トーストセット">
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu3.jpg" alt="トーストセット" data-id="3">
             <p>トーストセット</p>
         </div>
-        <div class="item">
-            <img src="images/menuList/menu4.jpg" alt="ジャンボパフェ">
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu4.jpg" alt="ジャンボパフェ" data-id="4">
             <p>ジャンボパフェ</p>
-        </div>
-        <div class="item">
-            <img src="images/menuList/menu5.jpg" alt="">
+        </div>  
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu5.jpg" alt="" data-id="5">
             <p>メニュー写真</p>
         </div>
-        <div class="item">
-            <img src="images/menuList/menu6.jpg" alt="">
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu6.jpg" alt="" data-id="6">
             <p>メニュー写真</p>
         </div>
-        <div class="item">
-            <img src="images/menuList/menu7.jpg" alt="">
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu7.jpg" alt="" data-id="7">
             <p>メニュー写真</p>
         </div>
-        <div class="item">
-            <img src="images/menuList/menu8.jpg" alt="">
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu8.jpg" alt="" data-id="8">
             <p>メニュー写真</p>
         </div>
-        <div class="item">
-            <img src="images/menuList/menu9.jpg" alt="">
+        <div class="item js-modal-open" >
+            <img src="images/menuList/menu9.jpg" alt="" data-id="9">
             <p>メニュー写真</p>
         </div>
     </div><!-- wrapper grid -->
+
+    <!-- モーダル画像スライダー -->
+    <div class="modal-main">
+        <div class="modal-body">
+            <div class="modal-icon">
+                <i class="fas fa-times modal-fas js-modal-close"></i>
+            </div>
+            <div class="slider">
+                <i class="slider_nav slider_prev js-slide-prev fas fa-chevron-left"></i>
+                <i class="slider_nav slider_next js-slide-next fas fa-chevron-right"></i>
+                <ul class="slider_container" id="target_modal">
+                  <!-- js側でimg要素を作成 -->
+                </ul>
+            </div>
+        </div>
+    </div><!-- end modal-main -->
 
     <footer>
         <div class="wrapper">
