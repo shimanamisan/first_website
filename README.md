@@ -2,7 +2,7 @@
 
 ![first_website](https://user-images.githubusercontent.com/49751604/102033846-cf5f0d80-3dff-11eb-83c0-f72421cca13a.png)
 
-[実際のサイトはこちら](https://shimanamisan.github.io/first_website/)
+- 実際のサイトはこちら：[https://shimanamisan.github.io/first_website/](https://shimanamisan.github.io/first_website/)
 
 ## 概要
 
@@ -21,6 +21,8 @@
 - 画像スライダーは**this の向き先を意識し、クロージャーを使用**して作成
 
 ![shimanami_cafe 1](https://user-images.githubusercontent.com/49751604/102037011-7dba8100-3e07-11eb-9663-ab8934e249d8.gif)
+
+- 画像スライダー JavaScript コード抜粋
 
 ```js
 // コード抜粋
