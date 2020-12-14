@@ -20,7 +20,7 @@
 - メニューリストの画像スライダーはプラグインを使用せず、jQurty を使用し自分で作成
 - 画像スライダーは**this の向き先を意識し、クロージャーを使用**して作成
 
-![shimanami_cafe](https://user-images.githubusercontent.com/49751604/102036772-0dabfb00-3e07-11eb-9529-39d85b732972.gif)
+![shimanami_cafe 1](https://user-images.githubusercontent.com/49751604/102037011-7dba8100-3e07-11eb-9663-ab8934e249d8.gif)
 
 ```js
 // コード抜粋
